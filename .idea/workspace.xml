@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0b340349-b81f-4f6b-8d8f-3fd06100c6bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/awesomeGo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/11interface/01interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/12file/01file.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/awesomeProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logging/logPacket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logtest/logtest.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
@@ -53,6 +67,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -62,9 +77,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="go" />
   </component>
-  <component name="RunManager" selected="Go Build.go build 01interface.go">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\GoFiles\awesomeGo\src\logtest" />
+      <recent name="D:\work\GoFiles\awesomeGo\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build logtest.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="awesomeGo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -104,6 +125,15 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build logtest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/logtest/logtest.go" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="awesomeGo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -119,9 +149,11 @@
       <item itemvalue="Go Build.go build awesomeProject/src/closure" />
       <item itemvalue="Go Build.go build calc.go" />
       <item itemvalue="Go Build.go build 01interface.go" />
+      <item itemvalue="Go Build.go build logtest.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build logtest.go" />
         <item itemvalue="Go Build.go build 01interface.go" />
         <item itemvalue="Go Build.go build calc.go" />
         <item itemvalue="Go Build.go build awesomeProject/src/closure" />
@@ -137,6 +169,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="company01" />
+    <option name="LAST_COMMIT_MESSAGE" value="company01" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <environment>
@@ -150,6 +198,10 @@
       <screen x="-1920" y="-211" width="1920" height="1040" />
     </state>
     <state x="-1088" y="207" key="#Custom_Plugin_Repositories/0.0.1366.728/-1920.-211.1920.1040@-1920.-211.1920.1040" timestamp="1597284017047" />
+    <state x="431" y="228" key="#Updates" timestamp="1597374593914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="431" y="228" key="#Updates/0.0.1366.728/-1920.-211.1920.1040@0.0.1366.728" timestamp="1597374593914" />
     <state x="-1506" y="-36" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597060132927">
       <screen x="-1920" y="-211" width="1920" height="1040" />
     </state>
@@ -162,6 +214,10 @@
       <screen x="-1920" y="-211" width="1920" height="1040" />
     </state>
     <state x="-1143" y="-1" width="368" height="619" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.728/-1920.-211.1920.1040@-1920.-211.1920.1040" timestamp="1597105409958" />
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1597364497715">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1920.-211.1920.1040@0.0.1366.728" timestamp="1597364497715" />
     <state x="-1180" y="64" key="FileChooserDialogImpl" timestamp="1597104995817">
       <screen x="-1920" y="-211" width="1920" height="1040" />
     </state>
@@ -178,22 +234,26 @@
       <screen x="-1920" y="-211" width="1920" height="1040" />
     </state>
     <state x="-1418" y="-33" key="GrepConsoleSettings/0.0.1366.728/-1920.-211.1920.1040@-1920.-211.1920.1040" timestamp="1597058138650" />
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1597109176083">
-      <screen x="-1920" y="-211" width="1920" height="1040" />
+    <state width="1320" height="156" key="GridCell.Tab.0.bottom" timestamp="1597366889309">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-211.1920.1040@-1920.-211.1920.1040" timestamp="1597109176083" />
-    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1597109176082">
-      <screen x="-1920" y="-211" width="1920" height="1040" />
+    <state width="1320" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-211.1920.1040@0.0.1366.728" timestamp="1597366889309" />
+    <state width="1320" height="156" key="GridCell.Tab.0.center" timestamp="1597366889309">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-211.1920.1040@-1920.-211.1920.1040" timestamp="1597109176082" />
-    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1597109176082">
-      <screen x="-1920" y="-211" width="1920" height="1040" />
+    <state width="1320" height="156" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-211.1920.1040@0.0.1366.728" timestamp="1597366889309" />
+    <state width="1320" height="156" key="GridCell.Tab.0.left" timestamp="1597366889309">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-211.1920.1040@-1920.-211.1920.1040" timestamp="1597109176082" />
-    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1597109176083">
-      <screen x="-1920" y="-211" width="1920" height="1040" />
+    <state width="1320" height="156" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-211.1920.1040@0.0.1366.728" timestamp="1597366889309" />
+    <state width="1320" height="156" key="GridCell.Tab.0.right" timestamp="1597366889309">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-211.1920.1040@-1920.-211.1920.1040" timestamp="1597109176083" />
+    <state width="1320" height="156" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-211.1920.1040@0.0.1366.728" timestamp="1597366889309" />
     <state width="1877" height="397" key="GridCell.Tab.1.bottom" timestamp="1597106769307">
       <screen x="-1920" y="-211" width="1920" height="1040" />
     </state>
@@ -210,14 +270,23 @@
       <screen x="-1920" y="-211" width="1920" height="1040" />
     </state>
     <state width="1877" height="397" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-211.1920.1040@-1920.-211.1920.1040" timestamp="1597106769307" />
-    <state x="-1459" y="-47" key="SettingsEditor" timestamp="1597284384806">
-      <screen x="-1920" y="-211" width="1920" height="1040" />
+    <state x="328" y="17" key="SettingsEditor" timestamp="1597374712679">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1459" y="-47" key="SettingsEditor/0.0.1366.728/-1920.-211.1920.1040@-1920.-211.1920.1040" timestamp="1597284384806" />
+    <state x="328" y="17" key="SettingsEditor/0.0.1366.728/-1920.-211.1920.1040@0.0.1366.728" timestamp="1597374712679" />
+    <state x="74" y="85" key="Vcs.Push.Dialog.v2" timestamp="1597364505020">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="74" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-211.1920.1040@0.0.1366.728" timestamp="1597364505020" />
     <state x="-1184" y="157" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1597060279519">
       <screen x="-1920" y="-211" width="1920" height="1040" />
     </state>
     <state x="-1184" y="157" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.0.1366.728/-1920.-211.1920.1040@-1920.-211.1920.1040" timestamp="1597060279519" />
+    <state x="486" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597364562797">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="486" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1920.-211.1920.1040@0.0.1366.728" timestamp="1597364562797" />
     <state x="-1159" y="215" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597105003768">
       <screen x="-1920" y="-211" width="1920" height="1040" />
     </state>
