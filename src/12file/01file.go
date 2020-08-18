@@ -52,7 +52,7 @@ func file02() {
 		}
 
 	}()
-	var temp = make([]byte, 100, 100)
+	var temp = make([]byte, 1350, 1350)
 	_, err = io.ReadFull(fileObj, temp)
 	if err == io.EOF {
 		fmt.Println("EOF read")
